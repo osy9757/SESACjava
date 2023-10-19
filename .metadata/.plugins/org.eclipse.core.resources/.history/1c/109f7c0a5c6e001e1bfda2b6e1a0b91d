@@ -8,7 +8,7 @@ public class TvTest {
 	
 		Properties pr = new Properties();
 		try {
-			pr.load(new FileInputStream("src/oop9/product.properties"));
+			pr.load(new FileInputStream("src/oops9/product.properties"));
 			String tvClass = pr.getProperty("tv");
 			String speakerClass = pr.getProperty("speaker");
 			
@@ -18,15 +18,15 @@ public class TvTest {
 			TV tv = (TV) tvClazz.getConstructor(null).newInstance();
 			Speaker sp = (Speaker) speakerClazz.getConstructor(null).newInstance();
 
-//			TV tv = new SamsungTV();
-			tv.setSpeaker(sp);
+			TV tv = new SamsungTV();
+			tv.setSpeaker(new HarmanSpeaker());
 			tv.powerOn();
 			tv.channelUp();
 			tv.channelUp();
 			tv.soundUp();
 			tv.powerOff();
 		} catch (Exception e) {
-			e.printStackTrace();
+			// TODO: handle exception
 		}
 		
 		

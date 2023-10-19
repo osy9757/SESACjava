@@ -1,12 +1,6 @@
 package oop9;
 
 public class SamsungTV implements TV{
-	private Speaker speaker = null;
-	
-	public void setSpeaker(Speaker speaker) {
-	    this.speaker = speaker;
-	}
-	
 	public void powerOn() {
 		System.out.println("Samsung : Turn on the TV");
 	}
@@ -20,17 +14,9 @@ public class SamsungTV implements TV{
 		System.out.println("Samsung : Channel Down");
 	}
 	public void soundUp() {
-		if (speaker == null) {
-			System.out.println("Samsung : Volume Up");
-		} else {
-			speaker.soundUp();
-		}
+		System.out.println("Samsung : Volume Up");
 	}
 	public void soundDown() {
-		if (speaker == null) {
-			System.out.println("Samsung : Volume Down");
-		} else {
-			speaker.soundDown();
-		}
+		System.out.println("Samsung : Volume Down");
 	}
 }

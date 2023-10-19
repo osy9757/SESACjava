@@ -8,7 +8,7 @@ public class TvTest {
 	
 		Properties pr = new Properties();
 		try {
-			pr.load(new FileInputStream("src/oop9/product.properties"));
+			pr.load(new FileInputStream("src/oops9/product.properties"));
 			String tvClass = pr.getProperty("tv");
 			String speakerClass = pr.getProperty("speaker");
 			
@@ -26,7 +26,7 @@ public class TvTest {
 			tv.soundUp();
 			tv.powerOff();
 		} catch (Exception e) {
-			e.printStackTrace();
+			// TODO: handle exception
 		}
 		
 		

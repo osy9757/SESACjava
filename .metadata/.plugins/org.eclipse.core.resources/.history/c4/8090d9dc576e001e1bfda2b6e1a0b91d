@@ -3,9 +3,10 @@ package oop9;
 public class SamsungTV implements TV{
 	private Speaker speaker = null;
 	
-	public void setSpeaker(Speaker speaker) {
+	private void setSpeaker(Speaker speaker) {
 	    this.speaker = speaker;
 	}
+
 	
 	public void powerOn() {
 		System.out.println("Samsung : Turn on the TV");

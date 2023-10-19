@@ -6,6 +6,7 @@ public class SamsungTV implements TV{
 	public void setSpeaker(Speaker speaker) {
 	    this.speaker = speaker;
 	}
+
 	
 	public void powerOn() {
 		System.out.println("Samsung : Turn on the TV");
