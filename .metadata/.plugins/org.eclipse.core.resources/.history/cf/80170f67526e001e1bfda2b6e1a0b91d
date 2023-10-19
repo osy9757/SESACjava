@@ -29,10 +29,7 @@ public class TypeCasting1 {
 		B b2 = (B)ad;
 		
 		A ad = new D();
-		B b1 = 8)(ad;
-		A ad = min D(;
-		)
-//		;
-
+		B b1 = 8/
+//		
 	}
 }
