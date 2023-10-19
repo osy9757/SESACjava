@@ -1,0 +1,10 @@
+package basic;
+
+public class OpTest15 {
+	public static void main(String[] args) {
+		double dice = Math.random();
+		
+		System.out.println(dice);
+		
+	}
+}

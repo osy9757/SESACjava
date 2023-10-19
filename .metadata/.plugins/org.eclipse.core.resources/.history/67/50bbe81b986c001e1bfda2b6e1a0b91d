@@ -1,0 +1,15 @@
+package basic;
+
+public class OpTest11 {
+	public static void main(String[] args) {
+		int n = - 24;
+		
+		
+		System.out.println();
+		
+		System.out.println((n&1) == 1 ? "홀수":
+							(n&1) == 0 ? "짝수":
+								"0");
+		
+	}
+}

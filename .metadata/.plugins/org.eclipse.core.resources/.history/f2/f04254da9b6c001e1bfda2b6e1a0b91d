@@ -1,0 +1,9 @@
+package basic;
+
+public class OpTest14 {
+	public static void main(String[] args) {
+		char n = 10;
+		System.out.println(n);
+		
+	}
+}

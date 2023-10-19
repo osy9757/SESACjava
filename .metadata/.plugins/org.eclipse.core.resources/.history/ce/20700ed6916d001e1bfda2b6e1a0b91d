@@ -1,0 +1,30 @@
+package oop4;
+
+public class ShapeTest {
+	public static void main(String[] args) {
+		printArea(new Circle());
+		printArea(new Rect());
+		printArea(new Tri());
+		
+	}
+	
+	private static void printArea(Shape s) {
+		s.area();
+		System.out.println(s.res);		
+	}
+	
+//	private static void printArea(Rect r) {
+//		r.area();
+//		System.out.println(r.res);		
+//	}
+//	
+//	private static void printArea(Tri t) {
+//		t.area();
+//		System.out.println(t.res);		
+//	}
+//	
+//	private static void printArea(Circle c) {
+//		c.area();
+//		System.out.println(c.res);		
+//	}
+}
