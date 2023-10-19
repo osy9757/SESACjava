@@ -13,4 +13,7 @@ public class Account {
 	public String toString() {
 		return "money1 : " + money1 + ", money2 : " + money2;
 	}
+	public void welcome() {
+		System.out.println("welcome~~");
+	}
 }

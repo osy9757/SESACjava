@@ -1,0 +1,6 @@
+package exam;
+
+public class Worker extends Human {
+	int workerID;
+	void goToWork() {}
+}

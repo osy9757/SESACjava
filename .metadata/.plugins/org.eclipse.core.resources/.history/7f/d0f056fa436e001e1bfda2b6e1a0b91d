@@ -1,0 +1,6 @@
+package exam;
+
+public class Worker {
+	int workerID;
+	void goToWork() {}
+}

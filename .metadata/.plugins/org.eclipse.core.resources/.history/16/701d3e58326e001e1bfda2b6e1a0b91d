@@ -1,0 +1,15 @@
+package oop7;
+
+public class Singleton {
+	public static Singleton s = null;
+	
+	int score;
+	private Singleton() {}
+	
+	public static Singleton getS() {
+		if (s == null) {
+			s = new Singleton();
+		}
+		return s;
+	}
+}
