@@ -1,0 +1,25 @@
+package lambda;
+
+interface A {
+	void method1();
+}
+interface B {
+	void method2(int a);
+}
+interface C {
+	int method3();
+}
+interface D {
+	double method4(int a, double b);
+}
+public class FunctionToLambdaExpression {
+	public static void main(String[] args) {
+		A a = () -> System.out.println("input x return x function ");
+		
+		B b = (k) -> System.out.println("input o return x function");
+		
+		C c = () -> {return 4;};
+		
+		D d = (x, y) -> {return x * y;};
+	}
+}

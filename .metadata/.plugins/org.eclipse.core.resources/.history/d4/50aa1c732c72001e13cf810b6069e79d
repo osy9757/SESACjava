@@ -1,0 +1,25 @@
+package collection;
+
+import java.util.TreeSet;
+
+public class TreeSetMethod_1 {
+	public static void main(String[] args) {
+		TreeSet<Integer> treeSet = new TreeSet<>();
+		for (int i = 50; i > 0; i-=2 ) {
+			treeSet.add(i);
+		}
+		
+		System.out.println(treeSet.toString());
+		
+		System.out.println(treeSet.first());
+		
+		System.out.println(treeSet.last());
+		
+		System.out.println(treeSet.lower(26));
+		
+		System.out.println(treeSet.higher(26));
+		
+		System.out.println(treeSet.floor(25));
+		System.out.println(treeSet.floor(26));
+	}
+}
