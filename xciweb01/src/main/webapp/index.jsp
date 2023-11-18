@@ -11,5 +11,8 @@
 <a href="/xciweb01/pilot/form">form</a>
 <h1>Rock Scissor Paper</h1>
 <a href="/xciweb01/game/ready">Ready</a>
+<%
+	response.sendRedirect("/article/list");
+%>
 </body>
 </html>
