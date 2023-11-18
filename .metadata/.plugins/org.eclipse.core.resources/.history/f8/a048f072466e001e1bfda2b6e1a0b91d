@@ -1,6 +1,0 @@
-package exam;
-
-public class Student extends Human{
-	int StudentID;
-	void goToSchool() {}
-}

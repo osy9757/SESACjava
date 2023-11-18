@@ -1,9 +1,0 @@
-package control;
-
-import java.util.Scanner;
-
-public class WhileTest1 {
-	public static void main(String[] args) {
-		
-	}
-}

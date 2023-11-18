@@ -1,9 +1,0 @@
-package oop3;
-
-public class AnimalTest {
-	public static void main(String[] args) {
-		Animal a = new Bird();
-		Bird b = (Bird) new Animal();
-		System.out.println(a);
-	}
-}

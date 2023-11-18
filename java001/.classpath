@@ -8,5 +8,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/dev/eclipse/lombok.jar"/>
 	<classpathentry kind="lib" path="C:/dev/mylibrary/Dice.jar"/>
+	<classpathentry kind="lib" path="C:/dev/mylibrary/ojdbc11.jar"/>
+	<classpathentry kind="lib" path="C:/dev/mylibrary/commons-codec-1.16.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
